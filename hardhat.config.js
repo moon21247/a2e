@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 require("dotenv/config");
 
-const privateKey = "cdd5687858732474d8fc11198fbe1f77565dfd1c4a3f50eeb7f3059e6218cd48";
+const privateKey = process.env.REACT_APP_PRIVATE_KEY;
 
 module.exports = {
   defaultNetwork: "localhost",
